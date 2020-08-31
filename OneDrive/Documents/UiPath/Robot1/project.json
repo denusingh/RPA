@@ -1,6 +1,6 @@
 {
-  "name": "MyFirstRobot",
-  "description": "Blank Process",
+  "name": "Robot1",
+  "description": "Clothing Consultant",
   "main": "Main.xaml",
   "dependencies": {
     "GitHub": "1.25.0",
