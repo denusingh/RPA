@@ -1,0 +1,254 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Web" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="799.2,1805.6" sap2010:WorkflowViewState.IdRef="Web_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Web" sap:VirtualizedContainerService.HintSize="508,1740.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,1648" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Private="True" Url="https://account.uipath.com/login?state=g6Fo2SBwQkpqVUtMb2Ezaldub2M1U01maEZ4b0xSYnAwTHBZRaN0aWTZIGJvRktsczk4T0NzY3d1aGVyUUtXdnlaXzczd3p2SkJLo2NpZNkgMnl0OUhkRjQ1TzAwNkg5cWRQY1A5YXM1Y2RHYm5DV3M&amp;client=2yt9HdF45O006H9qdPcP9as5cdGbnCWs&amp;protocol=oauth2&amp;audience=https%3A%2F%2Fuipath.eu.auth0.com%2Fapi%2Fv2%2F&amp;scope=openid%20profile%20email%20read%3Acurrent_user&amp;redirect_uri=https%3A%2F%2Fcloud.uipath.com%2Fportal_%2FauthCallback&amp;type=signup&amp;platform_name=UiPath%20Platform&amp;selected_language=en&amp;product_name=UiPath%20Automation%20Cloud&amp;company_code=B2B_CP&amp;enable_marketing_fields=true&amp;cloudrpa_signup_subdomain=%2Fportal_&amp;register_endpoint=%2Fregister&amp;use_local_registration=false&amp;response_type=code&amp;response_mode=query&amp;nonce=aTg4UDhXdlQzWlU4Ynp1ZC5uRnplT1V1d0F6UTFhU1p1ajBzLi5UMU52MQ%3D%3D&amp;code_challenge=L8yzn0SmcKXNWSUsqQFDhytxm4Vs-VkvTgk2NRlGwzs&amp;code_challenge_method=S256&amp;auth0Client=eyJuYW1lIjoiYXV0aDAtcmVhY3QiLCJ2ZXJzaW9uIjoiMC40LjAifQ%3D%3D">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,1545.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="358.4,107.2" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4f07df03-9cd5-4a37-872a-4ccfa994d415" InformativeScreenshot="9849d4328093ba9252de063ec510b6da" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span' idx='1' tag='SPAN' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="R&amp;D Ltd">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="60ddb66f-0996-4a0d-b565-f4c505c6335c" InformativeScreenshot="6d7315f68a39b87c03683ea52788694e" Selector="&lt;webctrl name='organizationName' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="John">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="60ddb66f-0996-4a0d-b565-f4c505c6335c" InformativeScreenshot="e641948263e37999fbb96cdbe1f4e0c1" Selector="&lt;webctrl name='firstName' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" SimulateType="True" Text="Key">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="60ddb66f-0996-4a0d-b565-f4c505c6335c" InformativeScreenshot="2257bb3350b4135561c215f93b69bf30" Selector="&lt;webctrl name='lastName' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT  country'" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="New Zealand">
+              <ui:SelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="50">
+                  <x:String>Malaysia</x:String>
+                  <x:String>Maldives</x:String>
+                  <x:String>Mali</x:String>
+                  <x:String>Malta</x:String>
+                  <x:String>Marshall Islands</x:String>
+                  <x:String>Martinique</x:String>
+                  <x:String>Mauritania</x:String>
+                  <x:String>Mauritius</x:String>
+                  <x:String>Mayotte</x:String>
+                  <x:String>Mexico</x:String>
+                  <x:String>Micronesia, Federal State of</x:String>
+                  <x:String>Moldova Republic of</x:String>
+                  <x:String>Monaco</x:String>
+                  <x:String>Mongolia</x:String>
+                  <x:String>Montenegro</x:String>
+                  <x:String>Montserrat</x:String>
+                  <x:String>Morocco</x:String>
+                  <x:String>Mozambique</x:String>
+                  <x:String>Myanmar</x:String>
+                  <x:String>Namibia</x:String>
+                  <x:String>Nauru</x:String>
+                  <x:String>Nepal</x:String>
+                  <x:String>Netherlands</x:String>
+                  <x:String>New Caledonia</x:String>
+                  <x:String>New Zealand</x:String>
+                  <x:String>Nicaragua</x:String>
+                  <x:String>Niger</x:String>
+                  <x:String>Nigeria</x:String>
+                  <x:String>Niue</x:String>
+                  <x:String>Norfolk Island</x:String>
+                  <x:String>Northern Mariana Islands</x:String>
+                  <x:String>Norway</x:String>
+                  <x:String>Oman</x:String>
+                  <x:String>Pakistan</x:String>
+                  <x:String>Palau</x:String>
+                  <x:String>Palestinian Territory, Occupied</x:String>
+                  <x:String>Panama</x:String>
+                  <x:String>Papua New Guinea</x:String>
+                  <x:String>Paraguay</x:String>
+                  <x:String>Peru</x:String>
+                  <x:String>Philippines</x:String>
+                  <x:String>Pitcairn</x:String>
+                  <x:String>Poland</x:String>
+                  <x:String>Portugal</x:String>
+                  <x:String>Puerto Rico</x:String>
+                  <x:String>Qatar</x:String>
+                  <x:String>Reunion</x:String>
+                  <x:String>Romania</x:String>
+                  <x:String>Russian Federation</x:String>
+                  <x:String>Rwanda</x:String>
+                </scg:List>
+              </ui:SelectItem.Items>
+              <ui:SelectItem.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cbe6a735-4cf5-4122-b182-ad47a663df1e" InformativeScreenshot="378c3354220a7a8b95d28a8675a132f1" Selector="&lt;webctrl tag='SELECT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:SelectItem.Target>
+            </ui:SelectItem>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" SimulateType="True" Text="randdltd@mail.com">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="60ddb66f-0996-4a0d-b565-f4c505c6335c" InformativeScreenshot="da2eacc2567f6a1a6cf596e7e467aedd" Selector="&lt;webctrl name='email' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Chrome_RenderWidgetHost...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_5" SimulateType="True" Text="323keytoPassw@rd983">
+              <ui:TypeInto.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="60ddb66f-0996-4a0d-b565-f4c505c6335c" InformativeScreenshot="bb6f60ef1744a038078cdb7b4f011c28" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:TypeInto.Target>
+            </ui:TypeInto>
+            <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Toggle" DisplayName="Check 'INPUT'" sap:VirtualizedContainerService.HintSize="358.4,107.2" sap2010:WorkflowViewState.IdRef="Check_1">
+              <ui:Check.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e2107d84-a7ef-4af5-a235-17f8330da790" InformativeScreenshot="5169531b1f9d76773f9ae79c751b6a0a" Selector="&lt;webctrl name='termsAndConditionsAccepted' tag='INPUT' type='checkbox' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Check.Target>
+            </ui:Check>
+            <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'INPUT'" sap:VirtualizedContainerService.HintSize="358.4,107.2" sap2010:WorkflowViewState.IdRef="Check_2">
+              <ui:Check.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ec403a35-f867-4505-bf7b-61b58467929e" InformativeScreenshot="cfb394ad668c8fb710e294e082d333ef" Selector="&lt;webctrl name='marketingConditionsAccepted' tag='INPUT' type='checkbox' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Check.Target>
+            </ui:Check>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+  </Sequence>
+</Activity>
